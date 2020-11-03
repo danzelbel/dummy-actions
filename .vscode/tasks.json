@@ -4,11 +4,11 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "watch - reverse-word",
+			"label": "watch - hello-world-javascript-action",
 			"type": "shell",
 			"command": "npm run watch",
 			"options": {
-				"cwd": "${workspaceFolder}/reverse-word"
+				"cwd": "${workspaceFolder}/hello-world-javascript-action"
 			},
 			// This task is run before some debug tasks.
 			// Problem is, it's a watch script, and since it never exits, VSCode

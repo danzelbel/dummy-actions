@@ -7,20 +7,20 @@
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Run reverse-word",
-			"program": "${workspaceFolder}/reverse-word/index.js",
-			"envFile": "${workspaceFolder}/reverse-word/.env",
+			"name": "Run hello-world-javascript-action",
+			"program": "${workspaceFolder}/hello-world-javascript-action/index.js",
+			"envFile": "${workspaceFolder}/hello-world-javascript-action/.env",
 			"console": "integratedTerminal",
-			"preLaunchTask": "watch - reverse-word"
+			"preLaunchTask": "watch - hello-world-javascript-action"
 		},
 		{
 			"type": "node",
 			"request": "launch",
-			"name": "Run dist reverse-word",
-			"program": "${workspaceFolder}/reverse-word/dist/index.js",
-			"envFile": "${workspaceFolder}/reverse-word/.env",
+			"name": "Run dist hello-world-javascript-action",
+			"program": "${workspaceFolder}/hello-world-javascript-action/dist/index.js",
+			"envFile": "${workspaceFolder}/hello-world-javascript-action/.env",
 			"console": "integratedTerminal",
-			"preLaunchTask": "watch - reverse-word"
+			"preLaunchTask": "watch - hello-world-javascript-action"
 		}
 	]
 }
