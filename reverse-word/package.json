@@ -1,0 +1,23 @@
+{
+  "name": "hello-world-javascript-action",
+  "version": "1.0.0",
+  "description": "This action prints \"Hello World\" or \"Hello\" + the name of a person to greet to the log.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danzelbel/dummy-actions.git"
+  },
+  "keywords": [
+    "workflow",
+    "actions"
+  ],
+  "author": "danzelbel",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build index.js --minify",
+    "watch": "ncc build index.js --watch --minify"
+  },
+  "devDependencies": {
+    "@actions/core": "^1.2.6"
+  }
+}
